@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Asesoría</title>
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("input[type='button']").click(function(){
+                var radioValue = $("input[name='radGend']:checked").val();
+                if(radioValue){
+                    alert("Fecha elegida: "+radioValue+" de Mayo de 2019 de 11:30 a 13:00.");
+                }
+            });
+
+        });
+    </script>
+  </head>
+  <body>
+    <nav class="bg-dark border-bottom border-secondary site-header sticky-top py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" data-toggle="dropdown" href="#">
+          <div class="text-center">
+            <img src="Imagenes/K.png" width="25" height="25" alt="K">
+          </div>
+          <div class="d-md-none bg-dark dropdown-menu text-center">
+            <div class="row">
+              <div class="d-md-none col-sm-12 col-md-1 col-lg-1">
+                <a href="Tareas.html" class="hoverable dropdown-item text-white border-bottom border-secondary">Tareas</a>
+              </div>
+              <div class="d-md-none col-sm-12 col-md-1 col-lg-1">
+                <a href="Actividades.html" class="dropdown-item text-white border-bottom border-secondary">Actividades</a>
+              </div>
+              <div class="d-md-none col-sm-12 col-md-1 col-lg-1">
+                <a href="Asesoria.html" class="dropdown-item text-white border-bottom border-secondary">Asesoría</a>
+              </div>
+              <div class="d-md-none col-sm-12 col-md-1 col-lg-1">
+                <a href="Informacion.html" class="dropdown-item text-white border-bottom border-secondary">Información del Curso</a>
+              </div>
+              <div class="d-md-none col-sm-12 col-md-1 col-lg-1">
+                <button onclick="location.href='login.html'" class="btn btn-dark text-white">Sign Out</button>
+              </div>
+            </div>
+
+          </div>
+
+        </a>
+        <button onclick="location.href='Tareas.html'" class="btn btn-dark py-2 d-none d-md-inline-block text-white">Tareas</button>
+        <button onclick="location.href='Actividades.html'" class="btn btn-dark py-2 d-none d-md-inline-block text-white">Actividades</button>
+        <button class="btn btn-secondary py-2 d-none d-md-inline-block text-white">Asesoría</button>
+        <button onclick="location.href='Informacion.html'" class="btn btn-dark py-2 d-none d-md-inline-block text-white">Información del Curso</button>
+
+        <div class="py-2 d-none d-md-inline-block">
+          <a data-toggle="dropdown" href="#">
+            <img src="Imagenes/user.png" width="25" height="25" alt="user">
+            <div class="dropdown-menu bg-dark">
+              <button onclick="location.href='login.html'" class="ml-4 btn btn-dark text-white">Sign Out</button>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+    <br>
+
+    <table border='1'  bordercolor='#f09000' cellspacing='0' cellpadding='0' align=center >
+  <tr><td><table cellspacing='0' cellpadding='0' align=center  border='1' width='600' HEIGHT='500'>
+    <td  align=center bgcolor='#f09000'></td>
+    <td colspan=5 align=center bgcolor='#f09000'><font size='3' face='Tahoma'>Mayo 2019  </td>
+      <td  align=center bgcolor='#f09000'></td></tr>
+
+      <tr><td><font size='3' face='Tahoma'><b>Domingo</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Lunes</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Martes</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Miercoles</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Jueves</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Viernes</b></font></td>
+        <td><font size='3' face='Tahoma'><b>Sabado</b></font></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="1">1</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="2">2</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="3">3</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="4">4</input>
+  <br>
+  </font></td></tr><tr><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="5">5</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="6">6</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="7">7</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="8">8</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="9">9</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="10">10</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="11">11</input>
+  <br>
+  </font></td></tr><tr><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="12">12</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="13">13</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="14">14</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="15">15</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="16">16</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="17">17</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="18">18</input>
+  <br>
+  </font></td></tr><tr><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="19">19</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="20">20</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="21">21</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="22">22</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="23">23</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="24">24</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="25">25</input>
+  <br>
+  </font></td></tr><tr><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="26">26</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="27">27</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="28">28</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="29">29</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="30">30</input>
+  <br>
+  </font></td><td valign=top><font size='3' face='Tahoma'><input type="radio" name="radGend" value="31">31</input>
+  <br>
+   </font></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+
+  <p><input type="button" value="Seleccionar Asesoria"></p>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
